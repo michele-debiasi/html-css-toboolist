@@ -11,5 +11,5 @@
   width: 100px;
 }
 .logo-title{
-    display: inline;
+    display: inline-block;
 }
