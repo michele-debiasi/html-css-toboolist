@@ -23,8 +23,7 @@
 }
 
 .maincontainer{
-    background-color: lightgrey;
-    padding-top: 10px;
+    background-color: white;
 }
 
 /*#div*/
@@ -33,10 +32,12 @@
     padding: 30px 300px;
 
 }
-/*#MAIN*/
-main{
-    padding: 2px 300px
+
+.allinone{
+    background-color: lightgray;
+    padding-top: 10px;
 }
+/*#MAIN*/
 .check-circle{
     border-radius: 50%;
     display: inline-block;
