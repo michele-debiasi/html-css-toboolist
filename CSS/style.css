@@ -11,12 +11,13 @@
   width: 100px;
   padding-top: 10px;
   padding-left: 10px;
+  vertical-align: middle;
 }
 .logo-title{
     display:inline;
     font-size: 60px;
     font-style: normal;
-    
+    vertical-align: middle;
     line-height: 100px
     
 }
