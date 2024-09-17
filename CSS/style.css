@@ -33,6 +33,9 @@
 main{
     padding: 2px 300px
 }
+&checkmark{
+    border-radius: 5px;
+}
 
 
 
