@@ -16,15 +16,14 @@
     font-style: normal;
 }
 
-div{
-    background-color: lightgrey;
-}
+/*#div*/
 .container{
     background-color: white;
     padding: 30px 300px;
 
 }
-body{
+/*#MAIN*/
+main{
     background-color: lightgrey;
 }
 
