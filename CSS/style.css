@@ -45,6 +45,18 @@ main{
     border-style:solid
     
 }
+.cross-circle{
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    color: red
+    border-color:red
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    border-style:solid
+
+}
 
 
 
