@@ -14,8 +14,10 @@
     display:inline;
     font-size: 60px;
     font-style: normal;
-    text-align: center;
+    vertical-align: middle;
+    
 }
+
 
 /*#div*/
 .container{
