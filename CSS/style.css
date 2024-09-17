@@ -34,7 +34,7 @@ main{
     padding: 2px 300px
 }
 .check-circle{
-    border-radius: 100%
+    border-radius: 50%
     display: inline-block;
     background-color: white;
     color: green;
