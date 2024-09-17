@@ -9,6 +9,7 @@
 .logo-image{
   height: 100px;
   width: 100px;
+  padding-top: 10px;
 }
 .logo-title{
     display:inline;
@@ -31,7 +32,7 @@
     padding: 2px 300px
 }
 
-}
+
 
 
 
