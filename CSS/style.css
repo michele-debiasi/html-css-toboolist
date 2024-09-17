@@ -16,13 +16,16 @@
     font-style: normal;
 }
 
-.div{
+div{
     background-color: lightgrey;
 }
 .container{
     background-color: white;
     padding: 30px 300px;
 
+}
+body{
+    background-color: lightgrey;
 }
 
 
