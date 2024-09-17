@@ -11,7 +11,7 @@
   width: 100px;
 }
 .logo-title{
-    display:inline-flex;
-    font-size: 80px;
+    display:inline;
+    font-size: 60px;
     font-style: normal;
 }
