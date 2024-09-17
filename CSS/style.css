@@ -22,6 +22,10 @@
     
 }
 
+.maincontainer{
+    background-color: lightgrey;
+    padding-top: 10px;
+}
 
 /*#div*/
 .container{
