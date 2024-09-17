@@ -9,5 +9,7 @@
 .logo-image{
   height: 100px;
   width: 100px;
-  
+}
+.logo-title{
+    display: inline;
 }
