@@ -1,78 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>toboolist</title>
-    <link rel="stylesheet" href="./CSS/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toboolist</title>
+    <!-- *font title -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Martian+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- *font title/ -->
 
-</head>
-<body>
+    <!-- *font sec-title -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- *font sec-title /-->
+
+    <!-- *font testo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- *font testo /-->
+
+    <!-- *link css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- *link css / -->
+  </head>
+  <body>
+    <!-- *titolo del sito -->
     <header>
-        <img src="./logo .png" class="logo-image" alt="logo">  
-        <h1 class="logo-title"><strong>Toboolist</strong></h1>
-
+      <img src="img/logo.png" alt="Logo sito" />
+      <h1 class="title">Toobolist</h1>
     </header>
-<div class="allinone">
+    <!-- *titolo del sito /-->
 
-   
-    
-    <div class="container">
-          <button class="button-style">Add Task</button> 
-          <input class="input-style" type="add section">
-        
-    
+    <!-- *corpo principla edella pagina -->
+    <main>
+      <div class="container">
+        <!-- *container per centrare il main -->
 
-
-    </div>
-<main>
-        <div class="maincontainer">
-
-          <h2 class="title"> <strong>New Task</strong></h2> 
-            <ul><span class="check-circle">&checkmark;</span>quartererly newsletter <button>editorial</button>
-            </ul> <br>
-
-          <h3 class="title"><strong>Today</strong></h3> 
-            <ul><span class="check-circle">&checkmark;</span>Recruiting blog post <button>editorial</button></ul> <br>
-            <ul><span class="check-circle">&checkmark;</span> Mobile app launch <button>Q1 goals</button></ul><br>
-            <ul><span class="cross-circle">&cross;</span> Interview John H. <button>recruiting</button></ul> <br>
-            <ul><span class="check-circle">&checkmark;</span> Summit update to mobile storefronts <button>mobile</button></ul> <br>
-
-
-          <h4 class="title"><strong>Upcoming</strong></h4>
-           <ul><span class="cross-circle">&cross;</span> Schedule meeting with Alex  </ul> <br>
-           <ul><span class="check-circle">&checkmark;</span>Homepage refresh <button>website</button></ul>   <br>
-           <ul><span class="check-circle">&checkmark;</span>Onboard new sales team members <button>sales</button><br></ul> <br>
-           <ul><span class="check-circle">&checkmark;</span> Review editorial calendar <button>editorial</button></ul>
-        
+        <!-- bottoni -->
+        <div class="button-container">
+          <button id="task">Add task</button>
+          <button id="section">Add Section</button>
         </div>
-</div>    
+        <!-- bottoni/ -->
 
-    
-          
-    
+        <div class="task-container">
+          <!-- prima sezione -->
+          <section>
+            <h2 class="sec-title">&#x25BC; New Task</h2>
+            <div class="cerchio green">&check;</div>
+            <span>Quaterly Newsletter</span>
+            <div class="fake-button editorial">Editorial</div>
+          </section>
+          <!-- prima sezione / -->
 
+          <!-- seconda sezione -->
+          <section>
+            <h2 class="sec-title">&#x25BC; Today</h2>
+            <ul>
+              <li>
+                <div class="cerchio green">&check;</div>
+                <span>Recruiting blog post</span>
+                <div class="fake-button editorial">Editorial</div>
+              </li>
+              <li>
+                <div class="cerchio green">&check;</div>
+                <span>Mobile app launch</span>
+                <div class="fake-button q1-goals">Q1 goals</div>
+              </li>
+              <li>
+                <div class="cerchio red">&cross;</div>
+                <span>Interview John H.</span>
+                <div class="fake-button recruiting">Recruiting</div>
+              </li>
+              <li>
+                <div class="cerchio green">&check;</div>
+                <span>Summit update to mobile storefronts</span>
+                <div class="fake-button mobiles">Mobiles</div>
+              </li>
+            </ul>
+          </section>
+          <!-- seconda sezione / -->
 
-
-        
-
-
-
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+          <!-- terza sezione -->
+          <section>
+            <h2 class="sec-title">&#x25BC; Upcoming</h2>
+            <ul>
+              <li>
+                <div class="cerchio red">&check;</div>
+                <span>Schedule meeting with Alex</span>
+              </li>
+              <li>
+                <div class="cerchio green">&check;</div>
+                <span>Homepage refresh</span>
+                <div class="fake-button website">Website</div>
+              </li>
+              <li>
+                <div class="cerchio green">&cross;</div>
+                <span>Onboard new Sales team memebers</span>
+                <div class="fake-button sales">Sales</div>
+              </li>
+              <li>
+                <div class="cerchio green">&check;</div>
+                <span>Review editorial calendar</span>
+                <div class="fake-button editorial">Editorial</div>
+              </li>
+            </ul>
+          </section>
+          <!-- terza sezione / -->
+        </div>
+        <!-- *corpo principale della pagina /-->
+      </div>
     </main>
-    
-</body>
+    <!-- *corpo principale della pagina /-->
+  </body>
 </html>

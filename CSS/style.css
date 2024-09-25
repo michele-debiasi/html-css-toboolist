@@ -5,76 +5,154 @@
     padding: 0;
 }
 
-/*#HEADER*/
-.logo-image{
-  height: 100px;
-  width: 100px;
-  padding-top: 10px;
-  padding-left: 10px;
-  vertical-align: middle;
-}
-.logo-title{
-    display:inline;
-    font-size: 60px;
-    font-style: normal;
+/*
+---------
+! FONT
+--------- 
+ */
+ body {
+    font-family: "Roboto", sans-serif;
+  }
+  .title {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Martian Mono", monospace;
+  }
+  .sec-title {
+    font-family: "Croissant One", cursive;
+  }
+  
+  /* 
+  -----------
+  ! COMMON
+  -----------
+   */
+  body {
+    background-color: aliceblue;
+  }
+  
+  /* 
+  -----------
+  ! HEADER
+  -----------
+   */
+  header {
+    padding: 20px 40px;
+    font-size: larger;
+    margin-bottom: 100px;
+    background-color: white;
+  }
+  img {
     vertical-align: middle;
-    line-height: 100px
-    
-}
-
-.maincontainer{
-    background-color: white;
-    padding: 30px 300px;
-}
-
-/*#div*/
-.container{
-    background-color: white;
-    padding: 30px 300px;
-
-}
-
-.allinone{
-    background-color: lightgray;
-
-}
-/*#MAIN*/
-.check-circle{
-    border-radius: 50%;
+  }
+  .title {
     display: inline-block;
+    vertical-align: middle;
+  }
+  
+  /* 
+  -----------
+  ! MAIN
+  -----------
+   */
+  /*
+  ---------- 
+  ? BUTTON-CONTAINER
+  ----------
+   */
+  .container {
+    width: 70%;
+    margin: 0 auto;
     background-color: white;
+    border-radius: 10px;
+  }
+  .button-container {
+    padding: 16px 50px 8px 50px;
+    border-bottom: 2px solid aliceblue;
+  }
+  button {
+    all: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 0.5px solid;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  #task {
+    background-color: rgba(71, 173, 241, 255);
+    color: rgba(255, 255, 255, 255);
+  }
+  #section {
+    background-color: white;
+    color: 7da8c7;
+    border-color: 7da8c7;
+  }
+  
+  /* 
+  ---------
+  ? TASK-CONTAINER
+  ---------
+   */
+  .task-container {
+    padding: 40px 50px 8px 50px;
+  }
+  section {
+    margin-bottom: 30px;
+  }
+  .sec-title {
+    margin-bottom: 10px;
+  }
+  .cerchio {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    border: 0.5px solid;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .green {
     color: green;
     border-color: green;
-    text-align: center;
-    height: 25px;
-    width: 25px;
-    border-style:solid
-    
-}
-.cross-circle{
-    border-radius: 50%;
-    display: inline-block;
-    background-color: white;
+  }
+  .red {
     color: red;
     border-color: red;
-    text-align: center;
-    height: 25px;
-    width: 25px;
-    border-style: solid;
-    
-}
-.title{
+  }
+  span {
     font-size: larger;
-}
-
-
-
-
-
-
-
-
-
-
-
-
+    vertical-align: middle;
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+  ul {
+    list-style: none;
+  }
+  .fake-button {
+    display: inline-block;
+    padding: 6px 13px;
+    border-radius: 20px;
+    border: 0.5px solid;
+    color: white;
+  }
+  .editorial {
+    background-color: rgba(71, 173, 241, 255);
+  }
+  .q1-goals {
+    background-color: #ab5de6;
+  }
+  .recruiting {
+    background-color: #2cc6ab;
+  }
+  .mobiles {
+    background-color: #ff9b00;
+  }
+  .website {
+    background-color: #ec4a9d;
+  }
+  .sales {
+    background-color: #a3d116;
+  }
+  li {
+    margin-bottom: 20px;
+  }
